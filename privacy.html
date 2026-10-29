@@ -30,7 +30,7 @@
       <aside class="policy-sidebar">
         <p class="eyebrow">SiteMed policy</p>
         <h1>Privacy</h1>
-        <p>Effective September 29, 2026</p>
+        <p>Effective October 29, 2026</p>
         <nav aria-label="Privacy policy sections">
           <a href="#overview">Overview</a>
           <a href="#data-use">Data SiteMed handles</a>
@@ -148,6 +148,13 @@
             reports, or network requests.
           </p>
           <p>
+            Finding locators also keep opaque tokens and weak references to affected
+            elements in the page’s isolated extension memory until the next scan or page
+            navigation. These references are not saved or sent anywhere. Selecting
+            <strong>Find on page</strong> shows a temporary highlight, which can be
+            dismissed or expires after 12 seconds.
+          </p>
+          <p>
             The current tab report is stored temporarily in Chrome session storage. It is
             removed when the tab navigates or closes and is rejected after 30 minutes.
           </p>
@@ -166,7 +173,8 @@
             <li>A selected baseline and the latest report</li>
             <li>
               Whole-site audit paths, response status, redirects, inbound link paths, and
-              finding labels
+              finding labels, including whether common browser protection settings were
+              detected
             </li>
             <li>Robots and sitemap status, counts, and fixed finding labels</li>
             <li>
